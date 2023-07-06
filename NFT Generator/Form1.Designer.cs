@@ -40,35 +40,27 @@
             this.Image_Folder_3 = new System.Windows.Forms.Button();
             this.tab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.imgFolder_4_text = new System.Windows.Forms.TextBox();
             this.imgFolder_10_text = new System.Windows.Forms.TextBox();
             this.imgFolder_7_text = new System.Windows.Forms.TextBox();
-            this.Image_Folder_7 = new System.Windows.Forms.Button();
-            this.Image_Folder_10 = new System.Windows.Forms.Button();
-            this.imgFolder_9_text = new System.Windows.Forms.TextBox();
-            this.Image_Folder_8 = new System.Windows.Forms.Button();
-            this.imgFolder_6_text = new System.Windows.Forms.TextBox();
             this.Image_Folder_9 = new System.Windows.Forms.Button();
+            this.Image_Folder_7 = new System.Windows.Forms.Button();
+            this.imgFolder_6_text = new System.Windows.Forms.TextBox();
+            this.Image_Folder_10 = new System.Windows.Forms.Button();
             this.imgFolder_5_text = new System.Windows.Forms.TextBox();
-            this.Image_Folder_5 = new System.Windows.Forms.Button();
-            this.Image_Folder_4 = new System.Windows.Forms.Button();
-            this.imgFolder_8_text = new System.Windows.Forms.TextBox();
+            this.Image_Folder_8 = new System.Windows.Forms.Button();
             this.Image_Folder_6 = new System.Windows.Forms.Button();
+            this.Image_Folder_5 = new System.Windows.Forms.Button();
+            this.imgFolder_9_text = new System.Windows.Forms.TextBox();
+            this.imgFolder_8_text = new System.Windows.Forms.TextBox();
+            this.Image_Folder_4 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.label13 = new System.Windows.Forms.Label();
+            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
+            this.label14 = new System.Windows.Forms.Label();
+            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
@@ -77,24 +69,32 @@
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.label12 = new System.Windows.Forms.Label();
             this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.label13 = new System.Windows.Forms.Label();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.label14 = new System.Windows.Forms.Label();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.label8 = new System.Windows.Forms.Label();
+            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.label6 = new System.Windows.Forms.Label();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.button2 = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -285,7 +285,29 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(436, 477);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "App";
+            this.tabPage1.Text = "Select Folders";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(6, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(148, 21);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Select Layer Folders";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(6, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(152, 21);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Select Output Folder";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // imgFolder_4_text
             // 
@@ -329,6 +351,21 @@
             this.imgFolder_7_text.Size = new System.Drawing.Size(313, 24);
             this.imgFolder_7_text.TabIndex = 18;
             // 
+            // Image_Folder_9
+            // 
+            this.Image_Folder_9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.Image_Folder_9.FlatAppearance.BorderSize = 2;
+            this.Image_Folder_9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Image_Folder_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Image_Folder_9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Image_Folder_9.Location = new System.Drawing.Point(6, 408);
+            this.Image_Folder_9.Name = "Image_Folder_9";
+            this.Image_Folder_9.Size = new System.Drawing.Size(105, 29);
+            this.Image_Folder_9.TabIndex = 21;
+            this.Image_Folder_9.Text = "Layer Folder - 9";
+            this.Image_Folder_9.UseVisualStyleBackColor = true;
+            this.Image_Folder_9.Click += new System.EventHandler(this.Image_Folder_9_Click);
+            // 
             // Image_Folder_7
             // 
             this.Image_Folder_7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
@@ -343,6 +380,20 @@
             this.Image_Folder_7.Text = "Layer Folder - 7";
             this.Image_Folder_7.UseVisualStyleBackColor = true;
             this.Image_Folder_7.Click += new System.EventHandler(this.Image_Folder_7_Click);
+            // 
+            // imgFolder_6_text
+            // 
+            this.imgFolder_6_text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgFolder_6_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.imgFolder_6_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.imgFolder_6_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.imgFolder_6_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
+            this.imgFolder_6_text.Location = new System.Drawing.Point(117, 305);
+            this.imgFolder_6_text.Name = "imgFolder_6_text";
+            this.imgFolder_6_text.Size = new System.Drawing.Size(313, 24);
+            this.imgFolder_6_text.TabIndex = 16;
             // 
             // Image_Folder_10
             // 
@@ -359,19 +410,19 @@
             this.Image_Folder_10.UseVisualStyleBackColor = true;
             this.Image_Folder_10.Click += new System.EventHandler(this.Image_Folder_10_Click);
             // 
-            // imgFolder_9_text
+            // imgFolder_5_text
             // 
-            this.imgFolder_9_text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgFolder_5_text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgFolder_9_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.imgFolder_9_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.imgFolder_9_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.imgFolder_9_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.imgFolder_9_text.Location = new System.Drawing.Point(117, 410);
-            this.imgFolder_9_text.Name = "imgFolder_9_text";
-            this.imgFolder_9_text.Size = new System.Drawing.Size(313, 24);
-            this.imgFolder_9_text.TabIndex = 22;
+            this.imgFolder_5_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.imgFolder_5_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.imgFolder_5_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.imgFolder_5_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
+            this.imgFolder_5_text.Location = new System.Drawing.Point(117, 270);
+            this.imgFolder_5_text.Name = "imgFolder_5_text";
+            this.imgFolder_5_text.Size = new System.Drawing.Size(313, 24);
+            this.imgFolder_5_text.TabIndex = 14;
             // 
             // Image_Folder_8
             // 
@@ -388,48 +439,20 @@
             this.Image_Folder_8.UseVisualStyleBackColor = true;
             this.Image_Folder_8.Click += new System.EventHandler(this.Image_Folder_8_Click);
             // 
-            // imgFolder_6_text
+            // Image_Folder_6
             // 
-            this.imgFolder_6_text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgFolder_6_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.imgFolder_6_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.imgFolder_6_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.imgFolder_6_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.imgFolder_6_text.Location = new System.Drawing.Point(117, 305);
-            this.imgFolder_6_text.Name = "imgFolder_6_text";
-            this.imgFolder_6_text.Size = new System.Drawing.Size(313, 24);
-            this.imgFolder_6_text.TabIndex = 16;
-            // 
-            // Image_Folder_9
-            // 
-            this.Image_Folder_9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.Image_Folder_9.FlatAppearance.BorderSize = 2;
-            this.Image_Folder_9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.Image_Folder_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Image_Folder_9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Image_Folder_9.Location = new System.Drawing.Point(6, 408);
-            this.Image_Folder_9.Name = "Image_Folder_9";
-            this.Image_Folder_9.Size = new System.Drawing.Size(105, 29);
-            this.Image_Folder_9.TabIndex = 21;
-            this.Image_Folder_9.Text = "Layer Folder - 9";
-            this.Image_Folder_9.UseVisualStyleBackColor = true;
-            this.Image_Folder_9.Click += new System.EventHandler(this.Image_Folder_9_Click);
-            // 
-            // imgFolder_5_text
-            // 
-            this.imgFolder_5_text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgFolder_5_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.imgFolder_5_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.imgFolder_5_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.imgFolder_5_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.imgFolder_5_text.Location = new System.Drawing.Point(117, 270);
-            this.imgFolder_5_text.Name = "imgFolder_5_text";
-            this.imgFolder_5_text.Size = new System.Drawing.Size(313, 24);
-            this.imgFolder_5_text.TabIndex = 14;
+            this.Image_Folder_6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.Image_Folder_6.FlatAppearance.BorderSize = 2;
+            this.Image_Folder_6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Image_Folder_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Image_Folder_6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Image_Folder_6.Location = new System.Drawing.Point(6, 303);
+            this.Image_Folder_6.Name = "Image_Folder_6";
+            this.Image_Folder_6.Size = new System.Drawing.Size(105, 29);
+            this.Image_Folder_6.TabIndex = 15;
+            this.Image_Folder_6.Text = "Layer Folder - 6";
+            this.Image_Folder_6.UseVisualStyleBackColor = true;
+            this.Image_Folder_6.Click += new System.EventHandler(this.Image_Folder_6_Click);
             // 
             // Image_Folder_5
             // 
@@ -446,20 +469,19 @@
             this.Image_Folder_5.UseVisualStyleBackColor = true;
             this.Image_Folder_5.Click += new System.EventHandler(this.Image_Folder_5_Click);
             // 
-            // Image_Folder_4
+            // imgFolder_9_text
             // 
-            this.Image_Folder_4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.Image_Folder_4.FlatAppearance.BorderSize = 2;
-            this.Image_Folder_4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.Image_Folder_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Image_Folder_4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Image_Folder_4.Location = new System.Drawing.Point(6, 233);
-            this.Image_Folder_4.Name = "Image_Folder_4";
-            this.Image_Folder_4.Size = new System.Drawing.Size(105, 29);
-            this.Image_Folder_4.TabIndex = 11;
-            this.Image_Folder_4.Text = "Layer Folder - 4";
-            this.Image_Folder_4.UseVisualStyleBackColor = true;
-            this.Image_Folder_4.Click += new System.EventHandler(this.Image_Folder_4_Click);
+            this.imgFolder_9_text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgFolder_9_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.imgFolder_9_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.imgFolder_9_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.imgFolder_9_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
+            this.imgFolder_9_text.Location = new System.Drawing.Point(117, 410);
+            this.imgFolder_9_text.Name = "imgFolder_9_text";
+            this.imgFolder_9_text.Size = new System.Drawing.Size(313, 24);
+            this.imgFolder_9_text.TabIndex = 22;
             // 
             // imgFolder_8_text
             // 
@@ -475,20 +497,20 @@
             this.imgFolder_8_text.Size = new System.Drawing.Size(313, 24);
             this.imgFolder_8_text.TabIndex = 20;
             // 
-            // Image_Folder_6
+            // Image_Folder_4
             // 
-            this.Image_Folder_6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.Image_Folder_6.FlatAppearance.BorderSize = 2;
-            this.Image_Folder_6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.Image_Folder_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Image_Folder_6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Image_Folder_6.Location = new System.Drawing.Point(6, 303);
-            this.Image_Folder_6.Name = "Image_Folder_6";
-            this.Image_Folder_6.Size = new System.Drawing.Size(105, 29);
-            this.Image_Folder_6.TabIndex = 15;
-            this.Image_Folder_6.Text = "Layer Folder - 6";
-            this.Image_Folder_6.UseVisualStyleBackColor = true;
-            this.Image_Folder_6.Click += new System.EventHandler(this.Image_Folder_6_Click);
+            this.Image_Folder_4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.Image_Folder_4.FlatAppearance.BorderSize = 2;
+            this.Image_Folder_4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Image_Folder_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Image_Folder_4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Image_Folder_4.Location = new System.Drawing.Point(6, 233);
+            this.Image_Folder_4.Name = "Image_Folder_4";
+            this.Image_Folder_4.Size = new System.Drawing.Size(105, 29);
+            this.Image_Folder_4.TabIndex = 11;
+            this.Image_Folder_4.Text = "Layer Folder - 4";
+            this.Image_Folder_4.UseVisualStyleBackColor = true;
+            this.Image_Folder_4.Click += new System.EventHandler(this.Image_Folder_4_Click);
             // 
             // tabPage2
             // 
@@ -521,197 +543,67 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(436, 477);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "HELP / INFO";
+            this.tabPage2.Text = "Image Count";
             // 
-            // progressBar1
+            // label13
             // 
-            this.progressBar1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.progressBar1.Location = new System.Drawing.Point(12, 551);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(444, 42);
-            this.progressBar1.TabIndex = 13;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label13.Location = new System.Drawing.Point(6, 314);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(167, 20);
+            this.label13.TabIndex = 46;
+            this.label13.Text = "Layer-10 Image Count";
             // 
-            // label1
+            // numericUpDown9
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.label1.Location = new System.Drawing.Point(204, 520);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 25);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Finish";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(6, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(152, 21);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Select Output Folder";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(6, 94);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 21);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Select Layer Folders";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.label5.Location = new System.Drawing.Point(301, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 15);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "https://github.com/MhmtBH";
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(6, 442);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(424, 29);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Save Settings";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(179, 14);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.numericUpDown9.Location = new System.Drawing.Point(179, 283);
+            this.numericUpDown9.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.numericUpDown9.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(58, 20);
-            this.numericUpDown1.TabIndex = 27;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.numericUpDown9.Name = "numericUpDown9";
+            this.numericUpDown9.Size = new System.Drawing.Size(58, 20);
+            this.numericUpDown9.TabIndex = 45;
+            this.numericUpDown9.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
-            // label4
+            // label14
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(6, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 20);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "Layer-1 Image Count";
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label14.Location = new System.Drawing.Point(6, 280);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(158, 20);
+            this.label14.TabIndex = 44;
+            this.label14.Text = "Layer-9 Image Count";
             // 
-            // label6
+            // numericUpDown10
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(6, 48);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(158, 20);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "Layer-2 Image Count";
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(179, 48);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
+            this.numericUpDown10.Location = new System.Drawing.Point(179, 314);
+            this.numericUpDown10.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown2.Minimum = new decimal(new int[] {
+            this.numericUpDown10.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(58, 20);
-            this.numericUpDown2.TabIndex = 29;
-            this.numericUpDown2.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(6, 115);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(158, 20);
-            this.label7.TabIndex = 34;
-            this.label7.Text = "Layer-4 Image Count";
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Location = new System.Drawing.Point(179, 81);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(58, 20);
-            this.numericUpDown3.TabIndex = 33;
-            this.numericUpDown3.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(6, 81);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(158, 20);
-            this.label8.TabIndex = 32;
-            this.label8.Text = "Layer-3 Image Count";
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.Location = new System.Drawing.Point(179, 115);
-            this.numericUpDown4.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.numericUpDown4.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(58, 20);
-            this.numericUpDown4.TabIndex = 31;
-            this.numericUpDown4.Value = new decimal(new int[] {
+            this.numericUpDown10.Name = "numericUpDown10";
+            this.numericUpDown10.Size = new System.Drawing.Size(58, 20);
+            this.numericUpDown10.TabIndex = 43;
+            this.numericUpDown10.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -845,69 +737,177 @@
             0,
             0});
             // 
-            // label13
+            // label7
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(6, 314);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(167, 20);
-            this.label13.TabIndex = 46;
-            this.label13.Text = "Layer-10 Image Count";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(6, 115);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(158, 20);
+            this.label7.TabIndex = 34;
+            this.label7.Text = "Layer-4 Image Count";
             // 
-            // numericUpDown9
+            // numericUpDown3
             // 
-            this.numericUpDown9.Location = new System.Drawing.Point(179, 283);
-            this.numericUpDown9.Maximum = new decimal(new int[] {
+            this.numericUpDown3.Location = new System.Drawing.Point(179, 81);
+            this.numericUpDown3.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown9.Minimum = new decimal(new int[] {
+            this.numericUpDown3.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(58, 20);
-            this.numericUpDown9.TabIndex = 45;
-            this.numericUpDown9.Value = new decimal(new int[] {
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(58, 20);
+            this.numericUpDown3.TabIndex = 33;
+            this.numericUpDown3.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
-            // label14
+            // label8
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(6, 280);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(158, 20);
-            this.label14.TabIndex = 44;
-            this.label14.Text = "Layer-9 Image Count";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(6, 81);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(158, 20);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "Layer-3 Image Count";
             // 
-            // numericUpDown10
+            // numericUpDown4
             // 
-            this.numericUpDown10.Location = new System.Drawing.Point(179, 314);
-            this.numericUpDown10.Maximum = new decimal(new int[] {
+            this.numericUpDown4.Location = new System.Drawing.Point(179, 115);
+            this.numericUpDown4.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown10.Minimum = new decimal(new int[] {
+            this.numericUpDown4.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(58, 20);
-            this.numericUpDown10.TabIndex = 43;
-            this.numericUpDown10.Value = new decimal(new int[] {
+            this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.Size = new System.Drawing.Size(58, 20);
+            this.numericUpDown4.TabIndex = 31;
+            this.numericUpDown4.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(6, 48);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(158, 20);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "Layer-2 Image Count";
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(179, 48);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(58, 20);
+            this.numericUpDown2.TabIndex = 29;
+            this.numericUpDown2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(6, 14);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(158, 20);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "Layer-1 Image Count";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(179, 14);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(58, 20);
+            this.numericUpDown1.TabIndex = 27;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(6, 442);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(424, 29);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "Save Settings";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.progressBar1.Location = new System.Drawing.Point(12, 551);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(444, 42);
+            this.progressBar1.TabIndex = 13;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.label1.Location = new System.Drawing.Point(204, 520);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 25);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Finish";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(105)))));
+            this.label5.Location = new System.Drawing.Point(301, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(155, 15);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "https://github.com/MhmtBH";
             // 
             // Form1
             // 
@@ -929,16 +929,16 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
